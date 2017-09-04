@@ -73,7 +73,7 @@ void SortClass::quickSort(int a[], int inicio, int fin) {  //REVISAR: Agregamos 
 	if (inicio < j) {
 		quickSort(a, inicio, j);
 	} 
-	if (i > fin) {
+	if (i < fin) {
 		quickSort(a, i, fin);
 	}
 }
